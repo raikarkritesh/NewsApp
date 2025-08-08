@@ -1,0 +1,18 @@
+import { useState } from "react";
+import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { NewsBoard } from "./components/NewsBoard";
+
+function App() {
+  const [count, setCount] = useState(0);
+  const [category, setCategory] = useState('general')
+
+  return (
+    <div>
+      <NavBar setCategory={setCategory}/>
+      <NewsBoard category={category}/>
+    </div>
+  );
+}
+
+export default App;
