@@ -1,0 +1,42 @@
+# React Native specific
+android/.gradle
+android/app/build
+ios/Pods
+ios/build
+*.keystore
+*.jks
+.env
+.expo
+.expo-shared
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+*.pbxproj
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/*
+!.vscode/extensions.json
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Dependencies and build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
